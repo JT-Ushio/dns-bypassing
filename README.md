@@ -32,9 +32,9 @@ Thus, besides bypassing the networking of data, we also need to bypass DNS queri
    client     |---|         server      client       |---|    server            chinadns   query    +---+  +
               +---+  return   +           +  return  +---+                         +       DNS1&2          |
                      ■'s ip   |           |  □'s ip                                |                       |
-     ☆                       |           |                     ★                 |                       |
+     ☆                        |           |                     ★                  |                       |
     DNS1                      v           v                    DNS2                v                       v
-                              ★          ☆                                       ☆                      ★
+                              ★           ☆                                        ☆                       ★
                              DNS2        DNS1                                     DNS1                    DNS2
 
 
